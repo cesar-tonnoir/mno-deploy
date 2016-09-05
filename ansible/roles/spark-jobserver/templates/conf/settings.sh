@@ -34,3 +34,8 @@ SPARK_EXECUTOR_URI=/home/spark/spark-1.6.0.tar.gz
 # Also optional: extra JVM args for spark-submit
 # export SPARK_SUBMIT_OPTS+="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5433"
 SCALA_VERSION={{ scala_version }}
+
+export MONGODB_HOST={{ mongodb.host }}
+export MONGODB_NAME={{ mongodb.name }}
+export MONGODB_USER={{ mongodb.user }}
+export MONGODB_PASSWD={{ mongodb.passwd }}
